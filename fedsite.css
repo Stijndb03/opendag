@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: #78206e;
+    display: inline;
+    color:#ffc000;
+    margin: 0 0 0 0;
+    font-size: 60px;
+}
+.title{
+    text-align: center;
+    background-color: #78206e;
+    color:#ffc000;
+    padding-bottom: 10px;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-between;
+}   
+.basic-info{
+    text-align:center;
+    margin: 0 0 0 0;
+}
+.flex-container-center div {
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start;
+}
+h2{
+    margin-top: 80px;
+    margin-left: 160px;
+    font-family: Aptos-Display;
+}
+.samenvatting{
+    margin-top: 10px;
+    margin-left: 160px;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+.aanmelden{
+    color:#ffc000;
+    background-color:#78206e;
+    margin-top: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    transition:0.3s;
+}
+.aanmelden:hover{
+    color:#78206e;
+    background-color:#ffc000;
+    transition:0.3s;
+}
+.info-background{
+    background-color: #ffc000; 
+    color: #78206e
+}
+.flex-container{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+.opendag-titel{
+    margin-top: 40px;
+    margin-left: 160px;
+    font-size: large;
+}
+.tijden{
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+body{
+    font-family:Aptos;
+}   
+@font-face {
+    font-family:"Aptos" ;
+    src: url(Aptos.ttf);
+    
+}
+@font-face{
+    font-family:"Aptos-Display" ;
+    src: url(Aptos-Display.ttf);
+}
+.meeloopdag{
+    color:#ffc000;
+    background-color:#78206e;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    transition:0.3s;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.meeloopdag:hover{
+    color:#78206e;
+    background-color:#ffc000;
+    transition:0.3s;
+}
+img{
+    width: 300px
+}    
+.curiologo{
+    background-color:#78206e;
+    border-top: 10px solid #ffc000;
+    display: flex;
+    justify-content: space-between;
+}
+.gebouw{
+    margin-top:20px;
+    margin-left: 130px;
+    width: 600px;
+}
+.locatie:hover{
+    color:blue
+}
+.footer{
+    justify-content: flex;
+    flex-direction: column;
+    color:#ffc000;
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 30px;
+    
+}
+.login{
+    background-color: #ffc000;
+    color:#78206e;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:20px;
+    display:block;
+}
+.login:hover{
+    color:#ffc000;
+    background-color:#78206e;
+    transition:0.3s;
+}
